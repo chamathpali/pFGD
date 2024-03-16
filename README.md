@@ -1,5 +1,19 @@
-# pFGD
-### Defending Against Gradient Inversion Attacks
+## pFGD: Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation
+
+This work is published at the **SECAI: ESORICS 2023 International Workshop, Lecture Notes in Computer Science (LNCS,volume 14399) [Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation](https://doi.org/10.1007/978-3-031-54129-2_44)**
+
+Bibtext
+```
+@inproceedings{palihawadana2023mitigating,
+  title={Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation},
+  author={Palihawadana, Chamath and Wiratunga, Nirmalie and Kalutarage, Harsha and Wijekoon, Anjana},
+  booktitle={European Symposium on Research in Computer Security},
+  pages={750--760},
+  year={2023},
+  organization={Springer}
+}
+```
+
 
 In this work, we explore the implications of Gradient Inversion attacks in FL and propose a novel defence mechanism, called Pruned Frequency-based Gradient Defence (pFGD), to mitigate these risks. Our defence strategy combines frequency transformation using techniques such as Discrete Cosine Transform (DCT) and employs pruning on the gradients to enhance privacy preservation.
 
