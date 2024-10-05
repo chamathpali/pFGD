@@ -3,7 +3,7 @@
 This work is published at the **SECAI: ESORICS 2023 International Workshop, Lecture Notes in Computer Science (LNCS,volume 14399) [Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation](https://doi.org/10.1007/978-3-031-54129-2_44)**
 
 Bibtext
-```
+```bib
 @inproceedings{palihawadana2023mitigating,
   title={Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation},
   author={Palihawadana, Chamath and Wiratunga, Nirmalie and Kalutarage, Harsha and Wijekoon, Anjana},
@@ -12,8 +12,17 @@ Bibtext
   year={2023},
   organization={Springer}
 }
-```
 
+```
+For a deeper understanding of the underlying Federated Learning with Frequency Space Transformation methodology, please refer to our pre-print on [https://arxiv.org/abs/2409.05242](https://arxiv.org/abs/2409.05242)
+```bib
+@article{palihawadana2024fedft,
+  title={FedFT: Improving Communication Performance for Federated Learning with Frequency Space Transformation},
+  author={Palihawadana, Chamath and Wiratunga, Nirmalie and Wijekoon, Anjana and Kalutarage, Harsha},
+  journal={arXiv preprint arXiv:2409.05242},
+  year={2024}
+}
+```
 
 In this work, we explore the implications of Gradient Inversion attacks in FL and propose a novel defence mechanism, called Pruned Frequency-based Gradient Defence (pFGD), to mitigate these risks. Our defence strategy combines frequency transformation using techniques such as Discrete Cosine Transform (DCT) and employs pruning on the gradients to enhance privacy preservation.
 
